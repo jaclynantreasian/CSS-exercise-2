@@ -1,0 +1,106 @@
+body {
+  background-color: #e2e2e2;
+  color: #000;
+  font-size: 16px;
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+    color: white;
+}
+
+
+figcaption{
+  padding: 5px 0 15px;
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+
+}
+
+article {
+  padding-top: 100px;
+}
+
+h1, h3, p {
+  padding-bottom: 15px;
+}
+
+h1 {
+  padding-top: 15px;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-family: Arial, sans-serif;
+  line-height: 1.3;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+.author {
+padding-bottom: 15px;
+}
+
+.container {
+background-color: white;
+padding: 40px;
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+p{
+  line-height: 1.5;
+
+}
